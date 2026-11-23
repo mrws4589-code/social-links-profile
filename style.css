@@ -150,7 +150,8 @@ footer {
 
 footer a {
   color: var(--clr-green);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
@@ -165,4 +166,15 @@ footer a:focus-visible {
   outline: 2px solid var(--clr-green);
   outline-offset: 2px;
   border-radius: 0.2rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
