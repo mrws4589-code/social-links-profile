@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-links-profile-solution-using-css-grid-and-logical-properties-xPzm1jK-tg)
 - Live Site URL: [GitHub Pages Live Site](https://mrws4589-code.github.io/social-links-profile/)
 
 ## My process
